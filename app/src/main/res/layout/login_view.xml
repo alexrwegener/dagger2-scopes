@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alexrwegener.dagger2byexamples.ui.login.LoginView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+    <EditText
+            android:id="@+id/login_username"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:focusable="true"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            />
+    <Button
+            android:id="@+id/login_button"
+            style="?android:attr/selectableItemBackground"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/black"
+            android:text="Login In"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            />
+</com.alexrwegener.dagger2byexamples.ui.login.LoginView>
